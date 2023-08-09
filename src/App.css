@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: '16023 futuran', sans-serif;
+}
+
+button,
+input {
+  font-family: '16023 futuran', sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+@font-face {
+  font-family: '16023 futuran';
+  src: url('https://uploads-ssl.webflow.com/58b46e8ee83d538241887534/58b91a6b5d75b92f63031210_16023_FUTURAN.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
